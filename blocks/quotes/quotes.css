@@ -1,7 +1,5 @@
 .quotes {
   width: calc(100%*1150/1280);
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
 }
 

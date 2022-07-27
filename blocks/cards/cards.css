@@ -7,12 +7,11 @@
   padding-bottom: 146px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
    .cards {
      display: grid;
-     grid-template-columns: 1fr 1fr;
+     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
      justify-content: center;
-     align-items: center;
      row-gap: 88px;
   }
 }
