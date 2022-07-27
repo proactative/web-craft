@@ -1,3 +1,6 @@
 .lead {
-  display: flex;
+  width: calc(100%*1144/1280);
+  margin: 0 auto 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

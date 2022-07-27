@@ -1,3 +1,5 @@
-lead__info {
-
+.lead__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
