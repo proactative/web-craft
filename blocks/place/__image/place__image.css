@@ -1,7 +1,8 @@
+.place__image-container {
+  overflow: hidden;
+}
 .place__image {
   max-width:460px;
-  height: 460px;
-
-  object-fit: contain;
+  object-fit: cover;
 }
 
