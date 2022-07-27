@@ -7,6 +7,7 @@
 @media screen and (max-width:900px){
   .place__info {
     margin: 0 auto;
+    max-width: 550px;
   }
 }
 

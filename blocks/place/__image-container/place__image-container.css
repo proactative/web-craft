@@ -1,0 +1,12 @@
+.place__image-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  grid-area: image;
+}
+
+.place__image-container:after {
+content: '';
+display: block;
+padding-top: calc(100%*534/640);
+}
