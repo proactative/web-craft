@@ -2,4 +2,6 @@
   width: calc(100%*1144/1280);
   margin: 0 auto;
   padding: 47px 0 84px;
+  position: relative;
+  overflow: hidden;
 }
