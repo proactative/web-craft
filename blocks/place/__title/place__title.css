@@ -6,6 +6,12 @@
   line-height: 1.1;
 }
 
+@media screen and (max-width:1050px){
+  .place__title {
+    margin-bottom: 100px;
+  }
+}
+
 @media screen and (max-width:900px){
   .place__title {
     position:absolute;

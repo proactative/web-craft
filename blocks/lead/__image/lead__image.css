@@ -1,4 +1,7 @@
 .lead__image {
-  width: 356px;
+  background-image: url(../../../images/intro-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 356px;
   height: 356px;
 }

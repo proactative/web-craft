@@ -1,7 +1,0 @@
-.lead__image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  /*padding-left: calc(50% - 356px/2);*/
-}
