@@ -1,6 +1,9 @@
 /*normalize*/
 @import url(../vendor/normalize.css);
 
+/*fonts*/
+@import url(../vendor/fonts.css);
+
 /*page*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
@@ -20,18 +23,22 @@
 @import url(../blocks/lead/__image-container/lead__image-container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 
-/*places*/
+/*places and place*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__image/places__image.css);
-@import url(../blocks/places/__info/places__info.css);
-@import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/places/__text/places__text.css);
-@import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/places/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__info/place__info.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 
 /*quotes*/
 @import url(../blocks/quotes/quotes.css);
 @import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
 @import url(../blocks/quotes/__title/quotes__title.css);
+
+/*quote-figure*/
+@import url(../blocks/quote-figure/quote-figure.css);
 
 /*cards and card*/
 @import url(../blocks/cards/cards.css);
