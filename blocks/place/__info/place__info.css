@@ -1,13 +1,19 @@
 .place__info {
   max-width: 400px;
-  margin: 70px 0 0 70px;
+  margin: auto 70px;
   grid-area: info;
 }
 
 @media screen and (max-width:900px){
   .place__info {
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 75%;
   }
 }
 
+@media screen and (max-width:370px){
+  .place__info {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}
