@@ -8,6 +8,8 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 
+/*mix-blocks*/
+@import url(../blocks/space-after/space-after.css);
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -25,7 +27,7 @@
 
 /*places and place*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place.css);
+@import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__info/place__info.css);
 @import url(../blocks/place/__title/place__title.css);

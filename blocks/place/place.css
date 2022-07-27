@@ -1,3 +1,13 @@
-.places {
+.place {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+/*
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(302px, 1fr));
+}
+/*
+.place:nth-last-of-type(2n+2) {
+  : row-reverse;
+}
+*/*********
