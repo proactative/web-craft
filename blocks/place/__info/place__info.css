@@ -1,4 +1,12 @@
 .place__info {
   max-width: 400px;
   margin-left: 70px;
+  grid-area: info;
 }
+/*
+@media screen and (max-width:900px){
+  .place__info {
+    grid-area:0;
+  }
+}
+*/
