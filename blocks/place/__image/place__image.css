@@ -1,8 +1,32 @@
 .place__image-container {
-  overflow: hidden;
-}
-.place__image {
-  max-width:460px;
-  object-fit: cover;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    grid-area: image;
 }
 
+.place__image-container:after {
+  content: '';
+  display: block;
+  padding-top: calc(100%*534/640);
+}
+
+.place__image {
+  position: absolute;
+  min-height: 120%;
+  width: 100%;
+  top:-70px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  object-fit: cover;
+  align-self: center;
+}
+
+@media screen and (max-width:900px){
+  .place__image {
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 320px;
+  }
+}

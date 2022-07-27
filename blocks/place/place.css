@@ -1,13 +1,19 @@
 .place {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-areas: "image info";
+  position: relative;
 }
-/*
-  display: grid;
-  grid-template-columns: repeat(auto-fit minmax(302px, 1fr));
-}
-/*
+
 .place:nth-last-of-type(2n+2) {
-  : row-reverse;
+  grid-template-areas: "info image"
 }
-*/
+
+@media screen and (max-width:900px){
+  .place {
+    grid-template-areas: "image" "info";
+  }
+  .place:nth-last-of-type(2n+2) {
+    grid-template-areas: "image" "info";
+  }
+}
