@@ -1,5 +1,6 @@
 .quotes {
-  width: calc(100%*1150/1280);
+  padding-left: calc(100% * 68 / 1280);
+  padding-right: calc(100% * 68 / 1280);
   margin: 0 auto;
 }
 

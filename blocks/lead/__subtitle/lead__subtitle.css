@@ -5,11 +5,12 @@
   font-size: 11px;
   margin-block-start: 0;
   text-transform: uppercase;
+
 }
 
 @media screen and (max-width: 900px) {
   .lead__subtitle {
     margin: 0 auto 35px;
-    width: 525px;
+
   }
 }
