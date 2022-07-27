@@ -13,10 +13,12 @@
 
 .place__image {
   position: absolute;
-  min-height: 100%;
+  min-height: 120%;
   width: 100%;
-  top:0;
+  top:-70px;
   bottom: 0;
+  right: 0;
+  left: 0;
   object-fit: cover;
   align-self: center;
 }
@@ -24,6 +26,7 @@
 @media screen and (max-width:900px){
   .place__image {
     margin: 0 auto;
-    width: 90%;
+    max-width: 80%;
+    min-width: 320px;
   }
 }

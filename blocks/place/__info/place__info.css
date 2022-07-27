@@ -1,12 +1,12 @@
 .place__info {
   max-width: 400px;
-  margin-left: 70px;
+  margin: 70px 0 0 70px;
   grid-area: info;
 }
-/*
+
 @media screen and (max-width:900px){
   .place__info {
-    grid-area:0;
+    margin: 0 auto;
   }
 }
-*/
+
