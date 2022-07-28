@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-around;
   position: relative;
-  width: 200%;
-  animation: scroll 10s infinite linear;
+  width: 100%;
+  animation: scroll 5s infinite alternate linear;
   list-style-type: none;
 }
 
