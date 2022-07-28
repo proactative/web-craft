@@ -5,8 +5,8 @@
   }
 }
 
-.flyer-animation {
-  background-image: url(../../images/favicon.png);
+.header__animation {
+  background-image: url(../../../images/favicon.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -14,17 +14,17 @@
   height: 50px;
   top: 31px;
   z-index: -1;
-  animation: flying 10s ease-in-out infinite;
+  animation: flying 15s ease-in-out infinite;
 }
 
 @media screen and (max-width:900px){
-  .flyer-animation {
+  .header__animation {
     top: 16px;
   }
 }
 
 @media screen and (max-width:600px){
-  .flyer-animation {
+  .header__animation {
     top: 0;
   }
 }
