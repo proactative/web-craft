@@ -39,12 +39,10 @@
 @import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
 @import url(../blocks/quotes/__title/quotes__title.css);
 
-/*quote-figure*/
-@import url(../blocks/quote-figure/quote-figure.css);
-
 /*cards and card*/
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/__figure/card__figure.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__text/card__text.css);
 
