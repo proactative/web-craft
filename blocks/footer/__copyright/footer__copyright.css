@@ -1,5 +1,13 @@
 .footer__copyright {
-  width: 50%;
-  overflow: hidden;
-  margin: 0 auto;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
 }
+
+@media screen and (max-width:600px){
+  .footer__copyright {
+    font-size: 16px;
+  }
+}
+
+

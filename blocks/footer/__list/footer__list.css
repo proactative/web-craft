@@ -1,21 +1,38 @@
+@keyframes scroll {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -300%;
+  }
+}
+
 .footer__list {
   display: flex;
   justify-content: space-around;
-  position: relative;
-  width: 100%;
-  animation: scroll 10s infinite alternate linear;
+  flex-direction: column;
+  position: absolute;
+  animation: scroll 5s infinite linear;
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
+  top: 0;
+  left: 75px;
 }
 
-@keyframes scroll {
-  0% {
-    left: 0%;
-  }
-  100% {
-    left: -110%;
-  }
+.footer__list::before {
+  content: 'POWER by Web-Craft';
+  font-weight: 700;
+  font-size: 20px;
 }
 
+@media screen and (max-width:600px){
+  .footer__list {
+    left: 60px;
+  }
+
+  .footer__list::before {
+    font-size: 16px;
+  }
+}

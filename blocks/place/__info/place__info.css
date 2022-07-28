@@ -1,6 +1,6 @@
 .place__info {
   max-width: 400px;
-  margin: auto 70px;
+  margin: auto auto auto 70px ;
   grid-area: info;
 }
 
