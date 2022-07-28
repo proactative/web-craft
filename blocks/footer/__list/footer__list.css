@@ -1,3 +1,18 @@
 .footer__list {
-
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 200%;
+  animation: scroll 10s infinite linear;
+  list-style-type: none;
 }
+
+@keyframes scroll {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -110%;
+  }
+}
+
