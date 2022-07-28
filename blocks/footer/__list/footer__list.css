@@ -3,8 +3,11 @@
   justify-content: space-around;
   position: relative;
   width: 100%;
-  animation: scroll 5s infinite alternate linear;
+  animation: scroll 10s infinite alternate linear;
   list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 @keyframes scroll {
