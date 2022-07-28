@@ -1,3 +1,26 @@
 .footer__copyright {
  color: #fff;
+ width: 100%;
+ overflow: hidden;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 200%;
+  animation: scroll 10s infinite linear;
+}
+
+.footer__item {
+  text-align: center;
+}
+
+@keyframes scroll {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -110%;
+  }
 }
