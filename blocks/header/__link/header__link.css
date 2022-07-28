@@ -1,7 +1,6 @@
 .header__link {
   text-decoration: none;
   color: #000;
-  margin: 0 38px 0 0;
   margin: -5px 33px -5px -5px;
   font-weight: 700;
   font-size: 12px;
@@ -23,7 +22,8 @@
 
 @media screen and (max-width:450px){
   .header__link {
-    margin-right: 5px;
+    margin: -3px 7px -3px -3px;
     font-size: 10px;
+    padding: 3px;
   }
 }

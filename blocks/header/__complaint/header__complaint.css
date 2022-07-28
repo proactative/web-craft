@@ -17,5 +17,7 @@
 @media screen and (max-width:450px){
   .header__complaint {
     font-size: 10px;
+    padding: 3px;
+    margin: -3px;
   }
 }
