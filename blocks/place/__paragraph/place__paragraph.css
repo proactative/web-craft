@@ -1,5 +1,7 @@
 .place__paragraph {
   color: #000;
+  margin-block-start: 0;
+  margin-block-end: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;

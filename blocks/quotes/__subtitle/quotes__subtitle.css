@@ -1,4 +1,5 @@
 .quotes__subtitle {
+  margin-block-end: 0;
   margin-bottom: 28px;
   color: #fecda7;
   font-weight: 700;

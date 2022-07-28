@@ -1,4 +1,6 @@
 .place__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
   margin:0 0 185px;
   font-style: normal;
   font-weight: 700;
