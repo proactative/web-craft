@@ -1,8 +1,9 @@
 .quotes__subtitle {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   color: #fecda7;
   font-weight: 700;
   font-size: 11px;
   margin-block-start: 0;
   text-transform: uppercase;
+  line-height: 2.1;
 }
