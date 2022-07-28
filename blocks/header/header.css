@@ -1,9 +1,14 @@
 .header {
-  width: calc(100%*1144/1280);
+  width: 100%;
   margin: 0 auto;
-  padding: 47px 0 84px;
-  position: relative;
+  padding: 47px calc(100%*68/1280) 44px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
   overflow: hidden;
+  z-index: 10;
 }
 
 @media screen and (max-width:900px){
