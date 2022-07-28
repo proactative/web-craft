@@ -1,11 +1,11 @@
-@keyframes animation {
+@keyframes flying {
   from {transform: translate(100%,0);
   }
   to {transform: translate(-25%,0);
   }
 }
 
-.animation {
+.flyer-animation {
   background-image: url(../../images/favicon.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -14,5 +14,17 @@
   height: 50px;
   top: 31px;
   z-index: -1;
-  animation: animation 10s ease-in-out infinite;
+  animation: flying 10s ease-in-out infinite;
+}
+
+@media screen and (max-width:900px){
+  .flyer-animation {
+    top: 16px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .flyer-animation {
+    top: 0;
+  }
 }

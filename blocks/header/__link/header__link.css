@@ -6,3 +6,16 @@
   font-size: 12px;
   line-height: 1;
 }
+
+@media screen and (max-width:600px){
+  .header__link {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width:450px){
+  .header__link {
+    margin-right: 10px;
+    font-size: 10px;
+  }
+}

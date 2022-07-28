@@ -1,3 +1,16 @@
 .space-after {
-  margin-bottom: 130px;
+  margin: 0 auto 130px;
+}
+
+.space-after:last-of-type {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width:900px){
+  .space-after {
+    margin-bottom: 80px;
+  }
+  .space-after:last-of-type {
+    margin-bottom: 60px;
+  }
 }

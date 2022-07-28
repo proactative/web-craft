@@ -5,3 +5,9 @@
   font-size: 12px;
   line-height: 1;
 }
+
+@media screen and (max-width:450px){
+  .header__complaint {
+    font-size: 10px;
+  }
+}

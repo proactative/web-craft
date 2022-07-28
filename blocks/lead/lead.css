@@ -1,16 +1,10 @@
 .lead {
-  margin: 0 auto;
-  padding-bottom: 130px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 
 @media screen and (max-width: 900px) {
   .lead {
-    display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding-bottom: 50px;
     width: 100%;
   }
 }

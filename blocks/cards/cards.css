@@ -2,10 +2,12 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 65px;
-  margin-block-start: 0;
+  margin:0;
+  padding: 0;
+  /*margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
-  padding-bottom: 146px;
+  padding-bottom: 146px;*/
 }
 
 @media screen and (max-width: 900px) {
@@ -13,6 +15,13 @@
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
      justify-content: center;
+     column-gap: 50px;
      row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .cards {
+    row-gap: 50px;
   }
 }

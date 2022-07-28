@@ -1,9 +1,12 @@
 .card__text {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+  margin: 0;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.45;
+}
+
+@media screen and (max-width: 702px) {
+   .card__text {
+      font-size: 15px;
+   }
 }

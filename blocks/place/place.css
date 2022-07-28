@@ -15,10 +15,13 @@
     gap: 15px;
     margin-bottom: 20px;
   }
+
   .place:nth-last-of-type(2n+2) {
     grid-template-areas: "image" "info";
   }
+
   .place:last-of-type {
     margin: 0;
+    padding-bottom: 15px;
   }
 }

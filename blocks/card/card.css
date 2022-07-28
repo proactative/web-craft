@@ -1,7 +1,4 @@
 .card {
   list-style: none;
-  /*max-width: 258px;
-  min-width: 200px;
-  margin-right: -34px;
-  padding-right: 41px;*/
+  min-width: 160px;
 }
