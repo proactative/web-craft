@@ -8,6 +8,7 @@
   left: 0;
   object-fit: cover;
   transition: transform 1s ease;
+  min-width: 320px;
 }
 
 .place__image:hover {
@@ -18,7 +19,6 @@
   .place__image {
     margin: 0 auto;
     max-width: 80%;
-    min-width: 320px;
   }
 }
 
