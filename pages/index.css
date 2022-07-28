@@ -49,6 +49,8 @@
 /*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
 
 /*animation*/
 @import url(../blocks/flyer-animation/flyer-animation.css);
