@@ -33,13 +33,17 @@
   height: 15px;
   cursor: pointer;
   border-radius: 20%;
-  left:15px;
+  left: 15px;
   top: -12px;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .lead__switcher:checked::before {
   background-image: url('../../../images/buttonDw.png');
+}
+
+.lead__switcher:hover::before {
+  opacity: .8;
 }
 
 .lead__switcher::after {

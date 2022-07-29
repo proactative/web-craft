@@ -14,7 +14,7 @@
   height: 48px;
   top: 31px;
   z-index: -1;
-  animation: flying 15s cubic-bezier(0.62, 0.18, 0.72, 0.25);
+  animation: flying 15s cubic-bezier(.62, .18, .72, .25);
   animation-iteration-count: 3;
   animation-fill-mode: forwards;
 }
