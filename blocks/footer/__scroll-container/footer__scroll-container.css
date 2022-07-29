@@ -1,0 +1,14 @@
+.footer__scroll-container {
+  width: 100%;
+  max-width: 200px;
+  height: 39.1px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width:600px){
+  .footer__scroll-container {
+    max-width: 146px;
+    height: 29.34px;
+  }
+}

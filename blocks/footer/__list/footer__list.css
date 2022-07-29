@@ -3,7 +3,7 @@
     top: 0%;
   }
   100% {
-    top: -300%;
+    top: -176.4%; /*100%*Hitem*nitem/Hcontainer - тут не размер шрифта нужен - а размер строки*/
   }
 }
 
@@ -18,21 +18,29 @@
   margin-block-end: 0;
   padding-inline-start: 0;
   top: 0;
-  left: 75px;
 }
 
 .footer__list::before {
-  content: 'POWER by Web-Craft';
+  content: 'Web-Craft';
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+/*что бы анимация не мигала на граничных точках создаем псевдоэлемент*/
+.footer__list::after {
+  content: 'Татьяна Парфенюк';
+  text-align: center;
   font-weight: 700;
   font-size: 20px;
 }
 
-@media screen and (max-width:600px){
-  .footer__list {
-    left: 60px;
+@media screen and (max-width:600px) {
+  .footer__list::before {
+    font-size: 15px;
   }
 
-  .footer__list::before {
-    font-size: 16px;
+  .footer__list::after {
+    font-size: 15px;
   }
 }

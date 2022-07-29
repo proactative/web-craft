@@ -1,14 +1,14 @@
 .footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48.4vw;
   width: 100%;
-  max-width: 287px;
-  height: 23px;
-  overflow: hidden;
-  position: relative;
+  max-height: 620px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   .footer__container {
-    max-width: 230px;
-    height: 18.4px;
+    flex-direction: column-reverse;
   }
 }
