@@ -3,7 +3,7 @@
     top: calc(356px + 15px);
   }
   100% {
-    top: 15px;
+    top: 17px;
   }
 }
 
@@ -31,10 +31,10 @@
   background-size: cover;
   background-position: center;
   width: 30px;
-  height: 20px;
-  top:-3px;
+  height: 15px;
   cursor: pointer;
   border-radius: 20%;
+  left:-5px;
 }
 
 .lead__switcher:checked::before {
@@ -51,7 +51,6 @@
   background-position: center;
   width: 356px;
   height: 356px;
-  top: 15px;
   left: -15px;
   animation: scroll-imageUp 1s cubic-bezier(0.62, 0.18, 0.72, 0.25);
   animation-fill-mode: both;
