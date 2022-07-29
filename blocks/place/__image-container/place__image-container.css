@@ -8,10 +8,10 @@
 .place__image-container:after {
   content: '';
   display: block;
-  padding-top: calc(100%*534/640);
+  padding-top: calc(100% * 534 / 640);
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .place__image-container:after {
     padding-top: 60%;
   }

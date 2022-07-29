@@ -14,13 +14,13 @@
   background-color:rgba(254, 205, 167, .5);
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px){
   .header__link {
     margin-right: 20px;
   }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width: 450px){
   .header__link {
     margin: -3px 7px -3px -3px;
     font-size: 10px;

@@ -14,7 +14,7 @@
   background-color:rgba(255, 190, 190, 0.5);
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width: 450px){
   .header__complaint {
     font-size: 10px;
     padding: 3px;

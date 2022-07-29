@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .footer__item {
     font-size: 15px;
   }

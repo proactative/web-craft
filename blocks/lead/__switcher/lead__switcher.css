@@ -52,12 +52,12 @@
   background-position: center;
   width: 356px;
   height: 356px;
-  animation: scroll-imageUp 1s cubic-bezier(0.62, 0.18, 0.72, 0.25);
+  animation: scroll-imageUp 1s cubic-bezier(.62, .18, .72, .25);
   animation-fill-mode: both;
 }
 
 .lead__switcher:checked::after {
-  animation: scroll-imageDw 1s cubic-bezier(0.62, 0.18, 0.72, 0.25);
+  animation: scroll-imageDw 1s cubic-bezier(.62, .18, .72, .25);
   animation-fill-mode: forwards;
 }
 

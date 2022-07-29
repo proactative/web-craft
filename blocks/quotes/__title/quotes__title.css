@@ -8,7 +8,7 @@
   max-width: 394px;
 }
 
-@media screen and (max-width:702px){
+@media screen and (max-width: 702px){
   .quotes__title {
     margin-bottom: 80px;
     font-size: 25px;

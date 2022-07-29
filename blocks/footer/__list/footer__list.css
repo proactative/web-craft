@@ -36,7 +36,7 @@
   font-size: 20px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .footer__list::before {
     font-size: 15px;
   }
