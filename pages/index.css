@@ -56,3 +56,7 @@
 
 /*animation*/
 @import url(../blocks/header/__animation/header__animation.css);
+
+/*button-up*/
+@import url(../blocks/button-up/button-up.css);
+@import url(../blocks/button-up/__sign/button-up__sign.css);
