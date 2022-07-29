@@ -4,14 +4,14 @@
   grid-area: info;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
   .place__info {
     margin: 0 auto;
     max-width: 75%;
   }
 }
 
-@media screen and (max-width:370px){
+@media screen and (max-width:370px) {
   .place__info {
     margin: 0 auto;
     max-width: 90%;

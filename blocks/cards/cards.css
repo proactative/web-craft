@@ -11,12 +11,12 @@
 
 
 @media screen and (max-width: 900px) {
-   .cards {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-     justify-content: center;
-     column-gap: 50px;
-     row-gap: 88px;
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 88px;
   }
 }
 

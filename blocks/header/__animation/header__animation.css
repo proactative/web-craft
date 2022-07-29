@@ -19,13 +19,13 @@
   animation-fill-mode: forwards;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
   .header__animation {
     top: 3px;
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   .header__animation {
     top: 0;
   }

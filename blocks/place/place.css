@@ -9,7 +9,7 @@
   grid-template-areas: "info image"
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
   .place {
     grid-template-areas: "image" "info";
     gap: 15px;

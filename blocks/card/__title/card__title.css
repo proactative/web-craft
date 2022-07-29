@@ -1,13 +1,13 @@
 .card__title {
- margin-bottom: 26px;
- font-weight: 700;
- font-size: 11px;
- text-transform: uppercase;
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 702px) {
   .card__title {
-     margin-bottom: 20px;
-     font-size: 13px;
+    margin-bottom: 20px;
+    font-size: 13px;
   }
 }

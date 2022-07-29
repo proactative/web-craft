@@ -6,7 +6,7 @@
   margin-bottom: 128px;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
   .space-after {
     margin-bottom: 80px;
   }
@@ -15,8 +15,7 @@
   }
 }
 
-
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   .space-after {
     margin-bottom: 60px;
   }

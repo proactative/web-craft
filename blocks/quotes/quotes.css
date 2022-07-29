@@ -2,8 +2,4 @@
   max-width: calc(100% * 1140 / 1280);
 }
 
-/*@media screen and (max-width: 768px) {
-  .quotes {
-   max-width: calc(100%*678/768);
- }
-}*/
+
