@@ -1,14 +1,10 @@
+
 .lead__image {
   background-image: url('../../../images/lead-image.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 356px;
-  height: 356px;
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 15px);
 }
 
-@media screen and (max-width: 900px) {
-  .lead__image {
-    width: 100%;
-  }
-}

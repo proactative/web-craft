@@ -7,12 +7,27 @@
   right: 0;
   left: 0;
   object-fit: cover;
-  transition: transform 1s ease;
+  /*transition: transform 1s ease;*/
+  min-width: 320px;
+}
+
+.place__image::after {
+  content: url(../../../images/places-black-sea.jpeg);
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  bottom: 0;
+  right: -100%;
+  left: 0;
+  object-fit: cover;
+  /*transition: transform 1s ease;*/
   min-width: 320px;
 }
 
 .place__image:hover {
-  transform:scale(1.1);
+  transform: translate(1.1);
 }
 
 @media screen and (max-width:900px){
