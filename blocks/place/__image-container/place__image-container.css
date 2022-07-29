@@ -1,7 +1,7 @@
 .place__image-container {
   position: relative;
   display: block;
-  /*overflow: hidden;*/
+  overflow: hidden;
   grid-area: image;
 }
 

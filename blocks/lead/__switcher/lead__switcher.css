@@ -35,7 +35,7 @@
   border-radius: 20%;
   left:15px;
   top: -12px;
-opacity: 0.5;
+  opacity: 0.5;
 }
 
 .lead__switcher:checked::before {
