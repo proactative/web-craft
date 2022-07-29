@@ -16,6 +16,12 @@
   text-align: center;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 .button-up:hover {
   opacity: .8;
 }
@@ -26,3 +32,4 @@
     height: 50px;
   }
 }
+
