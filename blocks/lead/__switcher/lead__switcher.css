@@ -25,7 +25,7 @@
 .lead__switcher::before {
   content: '';
   position: absolute;
-  background-image: url('../../../images/bottumUp.png');
+  background-image: url('../../../images/buttonUp.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,7 +39,7 @@
 }
 
 .lead__switcher:checked::before {
-  background-image: url('../../../images/bottumDw.png');
+  background-image: url('../../../images/buttonDw.png');
 }
 
 .lead__switcher::after {
